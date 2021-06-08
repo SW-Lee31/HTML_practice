@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 992px;
+  font-family: "Helvetica";
+}
+
+/* navbar */
+#navbar{
+  height: 60px;
+  line-height: 60px;
+}
+
+#navbar #logo{
+  /*line-height: 60px;*/
+  padding-left: 30px;
+  float: left;
+}
+
+#navbar #logo img{
+  text-decoration: none;
+  vertical-align: middle;
+  height: 20px;
+  color: black;
+}
+
+#navbar #menu ul{
+  float: right;
+  list-style: none;
+  margin: auto;
+}
+
+#navbar #menu ul li{
+  float: left;
+  margin-left: 30px;
+}
+
+#navbar #menu ul a{
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-style: Helvetica;
+}
+
+#navbar #menu ul a:hover{
+  background-color: #eeeeee;
+}
+
+#navbar #menu ul li:last-child{
+  padding-right: 30px;
+}
+
+
+/* hero header */
+#hero_header{
+  /*border: 2px solid red;*/
+  width: 100%;
+  height: 450px;
+  background-image: url('../images/hero_header.jpg');
+  background-repeat: none;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* products */
+#products{
+  /*border: 2px solid blue;*/
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#products h2{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 24px;
+  font-style: Helvetica;
+  color: #545454;
+}
+
+/*#products .product_list{*/
+/*  width: 675px;*/
+/*  margin-left: auto;*/
+/*  margin-right: auto;*/
+/*}*/
+
+#products .items{
+  /*border: 2px solid green;*/
+  /*width: 225px;*/
+  height: 300px;
+  float: left;
+  margin-top: 80px;
+  margin-left: 20px;
+  padding-bottom: 0;
+}
+
+#products .items a{
+  text-decoration: none;
+  color: #454545;
+  font-size: 16px;
+  font-style: Helvetica;
+}
+
+#products .items .name{
+  /*border: 2px solid red;*/
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+}
+
+#products .items .price{
+  display: block;
+  margin-top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+/* footer */
+.clearfix{
+  clear: both;
+}
+#footer{
+  /*border: 2px solid red;*/
+  margin-top: 120px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+#footer a{
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+}
